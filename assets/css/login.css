@@ -40,7 +40,7 @@ body {
 
 main {
     width: 100%;
-    margin-top: 7rem;
+    margin-top: 6rem;
 }
 
 .bg-blur {
@@ -335,7 +335,7 @@ nav {
 .nav-menu {
     display: flex;
     flex-wrap: nowrap;
-    align-items: center;
+    align-items: baseline;
     column-gap: 1.5rem;
     text-align: left;
     direction: ltr;
@@ -354,7 +354,7 @@ nav {
     transition: 0.1s;
 }
 
-.nav-menu-item:hover  {
+.nav-menu-item:hover {
     cursor: pointer;
     transition: 0.1s;
     scale: 1.1;
@@ -362,6 +362,14 @@ nav {
 
 .nav-menu-item-sign {
     color: #4461F2;
+}
+
+.hr-sign {
+    width: 50%;
+    height: 0.1rem;
+    border-radius: 500px;
+    background-color: #4461F2;
+    display: inline-block;
 }
 
 .nav-menu-item-Register {
