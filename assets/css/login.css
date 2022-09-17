@@ -210,7 +210,7 @@ main {
 }
 
 .input-text>i:hover {
-    color: rgb(231, 71, 71);
+    color: #e74747;
     cursor: pointer;
 }
 
@@ -225,10 +225,19 @@ main {
 }
 
 
+.check-input {
+    font-size: 12px;
+    font-weight: 500;
+    text-align: left;
+    padding-left: 20px;
+    color: #e74747;
+    transition: 0.5s;
+}
+
 #rec-pass {
     text-align: right;
     font-size: 12px;
-    font-weight: 300;
+    font-weight: 400;
     color: #C7C7C7;
     margin: 25px 0 0 0;
     letter-spacing: 1px;
@@ -238,7 +247,6 @@ main {
 #rec-pass:hover {
     color: rgb(231, 71, 71);
     cursor: pointer;
-    font-weight: 500;
     transition: 0.3s;
 }
 
@@ -343,13 +351,13 @@ nav {
     font-size: 15px;
     font-weight: 500;
     color: #000;
-    transition: 0.3s;
+    transition: 0.1s;
 }
 
 .nav-menu-item:hover  {
     cursor: pointer;
-    font-weight: 700;
-    transition: 0.3s;
+    transition: 0.1s;
+    scale: 1.1;
 }
 
 .nav-menu-item-sign {
