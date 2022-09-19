@@ -18,18 +18,21 @@
     <header>
 
       <nav class="nav">
-        <ul class="nav-menu">
+        <div>
+        <i class="fa fa-bars"></i>
+        <ul class="nav-menu-left">
           <li class="nav-menu-item">Home</li>
           <li class="nav-menu-item">About</li>
           <li class="nav-menu-item">Blog</li>
           <li class="nav-menu-item">Pages</li>
           <li class="nav-menu-item">Contact</li>
         </ul>
+      </div>
 
-        <ul class="nav-menu">
+        <ul class="nav-menu-right">
           <li class="nav-menu-item">English</li>
           <li class="nav-menu-item nav-menu-item-sign">
-            <ul>Sign in</ul>
+            <ul onclick="SignFocus()" id="Sign-in">Sign in</ul>
             <ul class="hr-sign"></ul>
           </li>
           <li class="nav-menu-item nav-menu-item-Register">Register</li>
@@ -46,20 +49,23 @@
       <div class="texte">
 
         <div>
+          <div>
             <p class="texte-big">
               Sign In to <br />
               Recharge Direct
             </p>
             <p class="texte-small">if you don’t an account <br> you can <span>Register here!</span></p>
+          </div>
+            
+            <img src="assets/image/Picture.png" alt="#" />
         </div>
 
-        <img src="assets/image/Picture.png" alt="#" />
 
         <form action="" id="form-sign-in">
 
 
           <div class="input-text">
-            <input type="text" placeholder="Enter Email" id="email" onchange="CheckMail()" />
+            <input type="text" placeholder="Enter Email" id="email" onchange="CheckMail()" autofocus />
             <i class="fas fa-user"></i>
           </div>
           <p class="check-input" id="email-alert"></p>

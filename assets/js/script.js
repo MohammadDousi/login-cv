@@ -40,3 +40,8 @@ function ShowPass() {
     }
   };
 }
+
+
+function SignFocus(){
+  document.getElementById("email").focus();
+}
