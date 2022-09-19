@@ -9,22 +9,18 @@ function CheckMail() {
   } else {
     alertemail.innerHTML = "You have entered an invalid email address!";
   }
-
 }
 
-
-function CheckPass(){
-
+function CheckPass() {
   const re = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$/;
   var pass = document.getElementById("pass").value;
   var alertpass = document.getElementById("pass-alert");
 
-  if(re.test(pass)){
+  if (re.test(pass)) {
     alertpass.innerHTML = "";
-  }else{
+  } else {
     alertpass.innerHTML = "You have entered an invalid password!";
   }
-
 }
 
 function ShowPass() {
@@ -41,7 +37,16 @@ function ShowPass() {
   };
 }
 
-
-function SignFocus(){
+function SignFocus() {
   document.getElementById("email").focus();
+}
+
+function ShowAside() {
+  var a = document.getElementById("aside");
+  a.style.display = "block";
+}
+
+function CloseAside() {
+  var a = document.getElementById("aside");
+  a.style.display = "none";
 }

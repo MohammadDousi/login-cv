@@ -15,100 +15,119 @@
   </head>
   <body>
 
-    <header>
+    <aside class="aside" id="aside">
+      
+      <ul>
+        <li class="nav-menu-item"><i class="fas fa-close" onclick="CloseAside()"></i></li>
+        <li class="nav-menu-item">Home</li>
+        <li class="nav-menu-item">About</li>
+        <li class="nav-menu-item">Blog</li>
+        <li class="nav-menu-item">Pages</li>
+        <li class="nav-menu-item">Contact</li>
+      </ul>
+    </aside>
 
-      <nav class="nav">
-        <div>
-        <i class="fa fa-bars"></i>
-        <ul class="nav-menu-left">
-          <li class="nav-menu-item">Home</li>
-          <li class="nav-menu-item">About</li>
-          <li class="nav-menu-item">Blog</li>
-          <li class="nav-menu-item">Pages</li>
-          <li class="nav-menu-item">Contact</li>
-        </ul>
-      </div>
 
-        <ul class="nav-menu-right">
-          <li class="nav-menu-item">English</li>
-          <li class="nav-menu-item nav-menu-item-sign">
-            <ul onclick="SignFocus()" id="Sign-in">Sign in</ul>
-            <ul class="hr-sign"></ul>
-          </li>
-          <li class="nav-menu-item nav-menu-item-Register">Register</li>
-        </ul>
-      </nav>
+    <main class="main">
+      
+      <header>
 
-    </header>
-
-    <main>
-
-      <div class="bg-blur bg-blur-yellow"></div>
-      <div class="bg-blur bg-blur-blue"></div>
-
-      <div class="texte">
-
-        <div>
+        <nav class="nav">
           <div>
-            <p class="texte-big">
-              Sign In to <br />
-              Recharge Direct
-            </p>
-            <p class="texte-small">if you don’t an account <br> you can <span>Register here!</span></p>
+          <i class="fa fa-bars" onclick="ShowAside()"></i>
+          <ul class="nav-menu-left">
+            <li class="nav-menu-item">Home</li>
+            <li class="nav-menu-item">About</li>
+            <li class="nav-menu-item">Blog</li>
+            <li class="nav-menu-item">Pages</li>
+            <li class="nav-menu-item">Contact</li>
+          </ul>
+        </div>
+  
+          <ul class="nav-menu-right">
+            <li class="nav-menu-item">English</li>
+            <li class="nav-menu-item nav-menu-item-sign">
+              <ul onclick="SignFocus()" id="Sign-in">Sign in</ul>
+              <ul class="hr-sign"></ul>
+            </li>
+            <li class="nav-menu-item nav-menu-item-Register">Register</li>
+          </ul>
+        </nav>
+  
+      </header>
+  
+      <main class="contianer">
+  
+        <div class="bg-blur bg-blur-yellow"></div>
+        <div class="bg-blur bg-blur-blue"></div>
+  
+        <div class="texte">
+  
+          <div>
+            <div>
+              <p class="texte-big">
+                Sign In to <br />
+                Recharge Direct
+              </p>
+              <p class="texte-small">if you don’t an account <br> you can <span>Register here!</span></p>
+            </div>
+              
+              <img src="assets/image/Picture.png" alt="#" />
           </div>
+  
+  
+          <form action="" id="form-sign-in">
+  
+  
+            <div class="input-text">
+              <input type="text" placeholder="Enter Email" id="email" onchange="CheckMail()" autofocus />
+              <i class="fas fa-user"></i>
+            </div>
+            <p class="check-input" id="email-alert"></p>
+  
+            <div class="input-text">
+            <input type="password" id="pass" class="input-text-password" placeholder="••••••••" onchange="CheckPass()" />
+            <i class="fas fa-eye-slash" id="eye" onclick="ShowPass()"></i>
+            </div>
+            <p class="check-input" id="pass-alert"></p>
+  
+  
             
-            <img src="assets/image/Picture.png" alt="#" />
+  
+            <p id="rec-pass">Recover Password ?</p>
+  
+            <button class="input-btn">Sign In</button>
+  
+  
+            <div id="account-with">
+                <hr class="hr" />
+                <p>Or continue with</p>
+                <hr class="hr" />
+            </div>
+  
+            <div id="account">
+                <button class="btn-account">
+                  <img src="assets/image/facebook.png" alt="" />
+                </button>
+                <button class="btn-account">
+                  <img src="assets/image/apple.png" alt="" />
+                </button>
+                <button class="btn-account">
+                  <img src="assets/image/google.png" alt="" />
+                </button>
+            </div>
+  
+          </form>
+  
+  
+           
+          </div>
         </div>
+      </main>
 
-
-        <form action="" id="form-sign-in">
-
-
-          <div class="input-text">
-            <input type="text" placeholder="Enter Email" id="email" onchange="CheckMail()" autofocus />
-            <i class="fas fa-user"></i>
-          </div>
-          <p class="check-input" id="email-alert"></p>
-
-          <div class="input-text">
-          <input type="password" id="pass" class="input-text-password" placeholder="••••••••" onchange="CheckPass()" />
-          <i class="fas fa-eye-slash" id="eye" onclick="ShowPass()"></i>
-          </div>
-          <p class="check-input" id="pass-alert"></p>
-
-
-          
-
-          <p id="rec-pass">Recover Password ?</p>
-
-          <button class="input-btn">Sign In</button>
-
-
-          <div id="account-with">
-              <hr class="hr" />
-              <p>Or continue with</p>
-              <hr class="hr" />
-          </div>
-
-          <div id="account">
-              <button class="btn-account">
-                <img src="assets/image/facebook.png" alt="" />
-              </button>
-              <button class="btn-account">
-                <img src="assets/image/apple.png" alt="" />
-              </button>
-              <button class="btn-account">
-                <img src="assets/image/google.png" alt="" />
-              </button>
-          </div>
-
-        </form>
-
-
-         
-        </div>
-      </div>
     </main>
+    
+   
   </body>
 
 
