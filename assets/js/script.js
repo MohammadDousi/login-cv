@@ -50,3 +50,12 @@ function CloseAside() {
   var a = document.getElementById("aside");
   a.style.display = "none";
 }
+
+
+const div = document.getElementById('change-ui');
+function ShowDropdown() {
+  div.style.display = "block";
+}
+function UnShowDropDown(){
+  div.style.display = "none";
+}

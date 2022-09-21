@@ -36,11 +36,17 @@
           <div>
           <i class="fa fa-bars" onclick="ShowAside()"></i>
           <ul class="nav-menu-left">
-            <li class="nav-menu-item">Home</li>
-            <li class="nav-menu-item">About</li>
-            <li class="nav-menu-item">Blog</li>
-            <li class="nav-menu-item">Pages</li>
-            <li class="nav-menu-item">Contact</li>
+            <li><a href="#" class="nav-menu-item">Home</a></li>
+            <li><a href="#" class="nav-menu-item">About</a></li>
+            <li><a href="#" class="nav-menu-item">Blog</a></li>
+            <li><a href="#" class="nav-menu-item">Pages</a></li>
+            <li><a href="#" class="nav-menu-item">Contact</a></li>
+            <li><a href="#" class="nav-menu-item" onmouseenter="ShowDropdown()">ChangeUi</a>
+              <div class="darpdown-menu" id="change-ui" onmouseleave="UnShowDropDown()">
+                <ul><a href="#" class="nav-menu-item darpdown-menu-item">Light Mode</a></ul>
+                <ul><a href="#" class="nav-menu-item darpdown-menu-item">Dark Mode</a></ul>
+              </div>
+            </li>
           </ul>
         </div>
   
