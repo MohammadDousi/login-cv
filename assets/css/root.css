@@ -1,14 +1,18 @@
 
-
 :root {
+
+    --background-light : #fff ;
+    --background-dark : #14162E ;
+
+    --textcolor-black : #000 ;
+    --textcolor-white : #fff ;
+
 
     --lightcolorblue : #4461F2 ;
     --lightcoloryellow :#DDA82A ;
     --backinput : #EAF0F7 ;
-    --placeholder_textcolor : #4F555A ;
-    --hover_alert_red : #e74747;
-
-
-
+    --placeholder-input-textcolor : #4F555A ;
+    --hover-alert-red : #e74747;
+ 
 }
 

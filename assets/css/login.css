@@ -82,7 +82,7 @@ nav {
     padding: 5px 10px;
     font-size: 15px;
     font-weight: 500;
-    color: #000;
+    color: var(--textcolor-black);
     transition: 0.1s;
 }
 
@@ -93,29 +93,29 @@ nav {
 }
 
 .nav-menu-item-sign {
-    color: #4461F2;
+    color: var(--lightcolorblue);
 }
 
 .hr-sign {
     width: 50%;
     height: 0.1rem;
     border-radius: 500px;
-    background-color: #4461F2;
+    background-color: var(--lightcolorblue);
     display: inline-block;
 }
 
 .nav-menu-item-Register {
     padding: 10px 25px;
-    color: #4461F2;
-    background-color: #fff;
+    color: var(--lightcolorblue);
+    background-color: var(--background-light);
     border-radius: 500px;
     box-shadow: 0px 2px 8px #00000020;
     transition: 0.3s;
 }
 
 .nav-menu-item-Register:hover {
-    background: #4461F2;
-    color: #fff;
+    background: var(--lightcolorblue);
+    color: var(--textcolor-white);;
     transition: 0.3s;
 }
 
@@ -129,7 +129,7 @@ nav {
     top: 0;
     padding: 4rem 1rem;
     position: absolute;
-    background: #4F555A;
+    background: var(--placeholder-input-textcolor);
     transition: 0.5s;
     display: none;
 }
@@ -141,7 +141,7 @@ nav {
 .fa-close:hover {
     transition: 0.3s;
     transform: rotate(360deg);
-    color: #e74747;
+    color: var(--hover-alert-red);
 }
 
 .aside>ul {
@@ -153,7 +153,7 @@ nav {
 
 .aside>ul>li {
     width: 100%;
-    color: #fff;
+    color: var(--textcolor-white);
     font-size: 15px;
     font-weight: 500;
     text-align: left;
@@ -163,7 +163,7 @@ nav {
 }
 
 .aside>ul>li:hover {
-    color: #fff;
+    color: var(--textcolor-white);
     background-color: #3e4042;
     transition: 0.3s;
 
@@ -185,7 +185,7 @@ nav {
 
 .contianer {
     width: 100%;
-    margin-top: 6rem;
+    margin-top: 5rem;
 }
 
 .bg-blur {
@@ -199,7 +199,7 @@ nav {
 }
 
 .bg-blur-blue {
-    background-color: #DDA82A;
+    background-color: var(--lightcoloryellow);
     animation: anim-bg-blue 50s infinite alternate-reverse;
 }
 
@@ -232,7 +232,7 @@ nav {
 
 
 .bg-blur-yellow {
-    background-color: #DDA82A;
+    background-color: var(--lightcoloryellow);
     animation: anim-bg-yellow 35s infinite normal;
 }
 
@@ -294,7 +294,7 @@ nav {
 }
 
 .texte-small>span {
-    color: #4461F2;
+    color: var(--lightcolorblue);
 }
 
 .texte>div>img {
@@ -341,7 +341,7 @@ nav {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    background-color: #EAF0F7;
+    background-color: var(--backinput);
     padding: 15px 20px;
     border-radius: 10px;
     margin: 15px 0;
@@ -349,7 +349,7 @@ nav {
 
 .input-text>input {
     width: 95%;
-    color: #000;
+    color: var(--textcolor-black);
     font-size: 15px;
     font-weight: 500;
     text-align: left;
@@ -362,7 +362,7 @@ nav {
 }
 
 .input-text>i:hover {
-    color: #e74747;
+    color: var(--hover-alert-red);
     cursor: pointer;
 }
 
@@ -371,7 +371,7 @@ nav {
 }
 
 .input-text::placeholder {
-    color: #4F555A;
+    color: var(--placeholder-input-textcolor);
     font-weight: 300;
     text-align: left;
 }
@@ -382,7 +382,7 @@ nav {
     font-weight: 500;
     text-align: left;
     padding-left: 20px;
-    color: #e74747;
+    color: var(--hover-alert-red);
     transition: 0.5s;
 }
 
@@ -404,8 +404,8 @@ nav {
 
 .input-btn {
     width: 100%;
-    color: #fff;
-    background-color: #4461F2;
+    color: var(--textcolor-white);
+    background-color: var(--lightcolorblue);
     font-size: 16px;
     font-weight: 500;
     padding: 18px 20px;
@@ -460,7 +460,7 @@ nav {
 }
 
 .btn-account:hover {
-    background-color: #fff;
+    background-color: var(--background-light);
     box-shadow: 0px 8px 15px #00000020;
     border: 1px transparent;
     cursor: pointer;
@@ -473,18 +473,12 @@ nav {
 
 
 
-
-
-
-
-
-
 @media(min-width:1025px) and (max-width:1366px) {
 
     .main {
         padding: 3rem 4rem;
     }
-    
+
     .contianer {
         margin-top: 3rem;
     }
