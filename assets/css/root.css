@@ -1,8 +1,8 @@
 
 :root {
 
-    --background-light : #fff ;
-    --background-dark : #14162E ;
+    --background : #fff ;
+    /* --background : #14162E ; */
 
     --textcolor-black : #000 ;
     --textcolor-white : #fff ;
@@ -11,8 +11,12 @@
     --lightcolorblue : #4461F2 ;
     --lightcoloryellow :#DDA82A ;
     --backinput : #EAF0F7 ;
+    --back-dropdown : #EAF0F7 ;
     --placeholder-input-textcolor : #4F555A ;
     --hover-alert-red : #e74747;
+
+    --shadow-btn-accunt : 0px 8px 15px #00000020;
+
  
 }
 

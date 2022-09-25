@@ -59,3 +59,28 @@ function ShowDropdown() {
 function UnShowDropDown(){
   div.style.display = "none";
 }
+
+// r.style.setProperty('--background', '#14162E');
+
+
+function lightMode(){
+
+  const r = document.querySelector(':root');
+  r.style.setProperty('--background', '#fff');
+  r.style.setProperty('--textcolor-black', '#000');
+  r.style.setProperty('--textcolor-white', '#fff');
+  r.style.setProperty('--back-dropdown', '#EAF0F7');
+  r.style.setProperty('--shadow-btn-accunt', '0px 8px 15px #00000020');
+
+}
+
+
+function DarkMode(){
+  const r = document.querySelector(':root');
+  r.style.setProperty('--background', '#14162E');
+  r.style.setProperty('--textcolor-black', '#fff');
+  r.style.setProperty('--textcolor-white', '#000');
+  r.style.setProperty('--back-dropdown', '#0a0d26');
+  r.style.setProperty('--shadow-btn-accunt', '0px 8px 15px #ffffff20');
+
+}
