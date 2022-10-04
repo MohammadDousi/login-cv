@@ -526,8 +526,8 @@ nav {
 
 footer {
     width: 100%;
-    background-color: #1d262d;
-    padding: 0 8rem;
+    background-color: var(--footer-background);
+    padding: 0 8rem 2rem 8rem;
 }
 
 .footer-main {
@@ -562,13 +562,14 @@ footer {
 .footer-title-text {
     font-size: 14px;
     font-weight: 900;
-    color: var(--textcolor-white);
+    letter-spacing: 1px;
+    color: #fff;
     text-align: left;
     width: 100%;
     text-transform: uppercase;
 }
 
-.item3 {
+.item3 ,.item1 {
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
@@ -600,7 +601,7 @@ footer {
 }
 
 .social-media i {
-    color: var(--textcolor-white);
+    color: #fff;
 }
 
 #twitter {
@@ -692,7 +693,7 @@ footer {
 .copyright {
     font-size: 14px;
     font-weight: 100;
-    color: var(--textcolor-white);
+    color: #fff;
     padding-top: 2rem;
 }
 

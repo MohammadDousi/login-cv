@@ -71,7 +71,7 @@ function lightMode(){
   r.style.setProperty('--textcolor-white', '#fff');
   r.style.setProperty('--back-dropdown', '#EAF0F7');
   r.style.setProperty('--shadow-btn-accunt', '0px 8px 15px #00000020');
-
+  r.style.setProperty('--footer-background','#1d262d');
 }
 
 
@@ -82,5 +82,5 @@ function DarkMode(){
   r.style.setProperty('--textcolor-white', '#000');
   r.style.setProperty('--back-dropdown', '#0a0d26');
   r.style.setProperty('--shadow-btn-accunt', '0px 8px 15px #ffffff20');
-
+  r.style.setProperty('--footer-background','#070818');
 }

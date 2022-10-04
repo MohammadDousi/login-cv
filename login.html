@@ -134,7 +134,34 @@
 
       <div class="footer-main">
         <div class="item1">
-          <p class="footer-title-text">SOCIAL MEDIA</p>
+          <div class="social-media">
+            <p class="footer-title-text">SOCIAL MEDIA</p>
+
+            <ul>
+              <li id="facebook"><a href="#"><i class="fab fa-facebook"></i></a></li>
+              <li id="twitter"><a href="#"><i class="fab fa-twitter"></i></a></li>
+              <li id="pinterest"><a href="#"><i class="fab fa-pinterest"></i></a></li>
+              <li id="instagram"><a href="#"><i class="fab fa-instagram"></i></a></li>
+              <li id="youtube"><a href="#"><i class="fab fa-youtube"></i></a></li>
+            </ul>
+
+          </div>
+
+          <div class="newsletter">
+            <p class="footer-title-text">subscribe to newsletter</p>
+
+            <form action="" id="form-newletter">
+              
+              <div class="input-text input-text-newsletter">
+                <input type="text" placeholder="Enter Email" id="email" onchange="CheckMail()" autocomplete="off"/>
+                <i class="fas fa-mail-bulk"></i>
+              </div>
+
+              <button class="input-btn input-btn-newsletter">Send</button>
+
+            </form>
+
+          </div>
 
         </div>
 
@@ -162,7 +189,7 @@
             <form action="" id="form-newletter">
               
               <div class="input-text input-text-newsletter">
-                <input type="text" placeholder="Enter Email" id="email" onchange="CheckMail()"/>
+                <input type="text" placeholder="Enter Email" id="email" onchange="CheckMail()" autocomplete="off"/>
                 <i class="fas fa-mail-bulk"></i>
               </div>
 
@@ -175,8 +202,10 @@
         </div>
         
       </div>
+
       <hr id="footer-hr">
       <p class="copyright">Copyright ©  2010-2022 Mohammad Dousi All rights reserved.</p>
+      
     </footer>
    
   </body>
