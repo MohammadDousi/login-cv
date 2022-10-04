@@ -28,45 +28,45 @@
     </aside>
 
 
-    <main class="main">
-      
-      <header>
+    <header>
 
-        <nav class="nav">
-          <div>
-          <i class="fa fa-bars" onclick="ShowAside()"></i>
-          <ul class="nav-menu-left">
-            <li><a href="#" class="nav-menu-item">Home</a></li>
-            <li><a href="#" class="nav-menu-item">About</a></li>
-            <li><a href="#" class="nav-menu-item">Blog</a></li>
-            <li><a href="#" class="nav-menu-item">Pages</a></li>
-            <li><a href="#" class="nav-menu-item">Contact</a></li>
-            <li><a href="#" class="nav-menu-item" onmouseenter="ShowDropdown()">ChangeUi</a>
-              <div class="dropdown-menu" id="change-ui" onmouseleave="UnShowDropDown()">
-                <ul><a href="#" class="nav-menu-item dropdown-menu-item" onclick="lightMode()">Light Mode</a></ul>
-                <ul><a href="#" class="nav-menu-item dropdown-menu-item" onclick="DarkMode()">Dark Mode</a></ul>
-              </div>
-            </li>
-          </ul>
-        </div>
-  
-          <ul class="nav-menu-right">
-            <li class="nav-menu-item">English</li>
-            <li class="nav-menu-item nav-menu-item-sign">
-              <ul onclick="SignFocus()" id="Sign-in">Sign in</ul>
-              <ul class="hr-sign"></ul>
-            </li>
-            <li class="nav-menu-item nav-menu-item-Register">Register</li>
-          </ul>
-        </nav>
-  
-      </header>
-  
+      <nav class="nav">
+        <div>
+        <i class="fa fa-bars" onclick="ShowAside()"></i>
+        <ul class="nav-menu-left">
+          <li><a href="#" class="nav-menu-item">Home</a></li>
+          <li><a href="#about" class="nav-menu-item">About</a></li>
+          <li><a href="#" class="nav-menu-item">Blog</a></li>
+          <li><a href="#" class="nav-menu-item">Pages</a></li>
+          <li><a href="#" class="nav-menu-item">Contact</a></li>
+          <li><a href="#" class="nav-menu-item" onmouseenter="ShowDropdown()">ChangeUi</a>
+            <div class="dropdown-menu" id="change-ui" onmouseleave="UnShowDropDown()">
+              <ul><a href="#" class="nav-menu-item dropdown-menu-item" onclick="lightMode()">Light Mode</a></ul>
+              <ul><a href="#" class="nav-menu-item dropdown-menu-item" onclick="DarkMode()">Dark Mode</a></ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+        <ul class="nav-menu-right">
+          <li class="nav-menu-item">English</li>
+          <li class="nav-menu-item nav-menu-item-sign">
+            <ul onclick="SignFocus()" id="Sign-in">Sign in</ul>
+            <ul class="hr-sign"></ul>
+          </li>
+          <li class="nav-menu-item nav-menu-item-Register">Register</li>
+        </ul>
+      </nav>
+
+    </header>
+
+    <main class="main">
+   
       <main class="contianer">
   
-        <div class="bg-blur bg-blur-yellow"></div>
+        <!-- <div class="bg-blur bg-blur-yellow"></div>
         <div class="bg-blur bg-blur-blue"></div>
-  
+   -->
         <div class="texte">
   
           <div>
@@ -84,7 +84,6 @@
   
           <form action="" id="form-sign-in">
   
-  
             <div class="input-text">
               <input type="text" placeholder="Enter Email" id="email" onchange="CheckMail()" autofocus />
               <i class="fas fa-user"></i>
@@ -97,13 +96,9 @@
             </div>
             <p class="check-input" id="pass-alert"></p>
   
-  
-            
-  
             <p id="rec-pass">Recover Password ?</p>
   
             <button class="input-btn">Sign In</button>
-  
   
             <div id="account-with">
                 <hr class="hr" />
@@ -132,7 +127,57 @@
       </main>
 
     </main>
-    
+
+    <!-- <div id="about" style="width:100%; height: 100vh;"> -->
+    <!-- </div> -->
+    <footer>
+
+      <div class="footer-main">
+        <div class="item1">
+          <p class="footer-title-text">SOCIAL MEDIA</p>
+
+        </div>
+
+        <div>
+        </div>
+
+        <div class="item3">
+
+          <div class="social-media">
+            <p class="footer-title-text">SOCIAL MEDIA</p>
+
+            <ul>
+              <li id="facebook"><a href="#"><i class="fab fa-facebook"></i></a></li>
+              <li id="twitter"><a href="#"><i class="fab fa-twitter"></i></a></li>
+              <li id="pinterest"><a href="#"><i class="fab fa-pinterest"></i></a></li>
+              <li id="instagram"><a href="#"><i class="fab fa-instagram"></i></a></li>
+              <li id="youtube"><a href="#"><i class="fab fa-youtube"></i></a></li>
+            </ul>
+
+          </div>
+
+          <div class="newsletter">
+            <p class="footer-title-text">subscribe to newsletter</p>
+
+            <form action="" id="form-newletter">
+              
+              <div class="input-text input-text-newsletter">
+                <input type="text" placeholder="Enter Email" id="email" onchange="CheckMail()"/>
+                <i class="fas fa-mail-bulk"></i>
+              </div>
+
+              <button class="input-btn input-btn-newsletter">Send</button>
+
+            </form>
+
+          </div>
+
+        </div>
+        
+      </div>
+      <hr id="footer-hr">
+      <p class="copyright">Copyright ©  2010-2022 Mohammad Dousi All rights reserved.</p>
+    </footer>
    
   </body>
 
