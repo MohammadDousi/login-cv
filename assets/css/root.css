@@ -1,10 +1,10 @@
 
 :root {
 
-    --background : #fff ;
-    /* --background : #14162E ; */
+    --background : #fff ; /* #14162E => dark mode */
 
-    --footer-background : #1d262d ;
+    --footer-background : #1d262d ; /* #070818 => dark mode */
+    --header-background : #EAF0F7 ; /* #070818 => dark mode */
 
 
     --textcolor-black : #000 ;

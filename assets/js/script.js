@@ -72,6 +72,9 @@ function lightMode(){
   r.style.setProperty('--back-dropdown', '#EAF0F7');
   r.style.setProperty('--shadow-btn-accunt', '0px 8px 15px #00000020');
   r.style.setProperty('--footer-background','#1d262d');
+  // r.style.setProperty('--header-background','#EAF0F7');
+
+  
 }
 
 
@@ -83,4 +86,6 @@ function DarkMode(){
   r.style.setProperty('--back-dropdown', '#0a0d26');
   r.style.setProperty('--shadow-btn-accunt', '0px 8px 15px #ffffff20');
   r.style.setProperty('--footer-background','#070818');
+  // r.style.setProperty('--header-background','#070818');
+
 }
