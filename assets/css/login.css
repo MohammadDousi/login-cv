@@ -371,6 +371,7 @@ a {
     height: 100vh;
     background-color: var(--background);
     padding: 2rem 8rem;
+    display: flex;
 }
 
 
