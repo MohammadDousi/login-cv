@@ -57,7 +57,7 @@ const div = document.getElementById('change-ui');
 li.addEventListener("mouseenter", function () {
   div.style.display = "block";
 })
-div.addEventListener( "mouseleave", function () {
+div.addEventListener("mouseleave", function () {
   div.style.display = "none";
 
 })
@@ -68,10 +68,41 @@ const li_lang = document.getElementById('li-change-lang');
 li_lang.addEventListener("mouseenter", function () {
   div_lang.style.display = "block";
 })
-div_lang.addEventListener( "mouseleave", function () {
+div_lang.addEventListener("mouseleave", function () {
   div_lang.style.display = "none";
 
 })
+
+
+
+
+const s_up = document.getElementById("btn-scroll-to-up");
+
+s_up.addEventListener("click", function () {
+
+  var id = null;
+  var pos = window.scrollY;
+  clearInterval(id);
+  id = setInterval(frame, 10);
+  function frame() {
+    if (pos <= Number(0)) {
+      clearInterval(id);
+    } else {
+      pos -= 35;
+      window.scrollTo(0, pos);
+      console.log(pos);
+    }
+  }
+})
+
+
+
+
+
+
+
+
+
 
 function lightMode() {
 

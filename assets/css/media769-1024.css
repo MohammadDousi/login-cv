@@ -1,0 +1,107 @@
+ .aside {
+     width: 15rem;
+ }
+
+ .nav-menu-left {
+    display: none;
+}
+
+.fa {
+    display: var(--fa-display, block);
+}
+
+ .main {
+     padding: 3rem;
+ }
+
+ .bg-blur {
+     width: 90px;
+     height: 90px;
+ }
+
+ @keyframes anim-bg-blue {
+     0% {
+         left: 10rem;
+         top: 10rem;
+     }
+
+     25% {
+         left: 25rem;
+         top: 20rem;
+     }
+
+     50% {
+         left: 10rem;
+         top: 30rem;
+     }
+
+     75% {
+         left: 10rem;
+         top: 22rem;
+     }
+
+     100% {
+         left: 10rem;
+         top: 10rem;
+     }
+ }
+
+ @keyframes anim-bg-yellow {
+     0% {
+         left: 10rem;
+         top: 10rem;
+     }
+
+     25% {
+         left: 25rem;
+         top: 20rem;
+     }
+
+     50% {
+         left: 10rem;
+         top: 30rem;
+     }
+
+     75% {
+         left: 10rem;
+         top: 22rem;
+     }
+
+     100% {
+         left: 10rem;
+         top: 10rem;
+     }
+ }
+
+
+ .texte {
+     align-items: baseline;
+     justify-content: center;
+ }
+
+
+ .texte>div {
+     width: 48%;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: flex-start;
+     align-items: center;
+ }
+
+ .texte-big {
+     font-size: 2.6rem;
+ }
+
+ .texte-small {
+     font-size: 1.1rem;
+ }
+
+ .texte>div>img {
+     width: 350px;
+     margin-top: 3rem;
+     margin-left: 0;
+ }
+
+ #form-sign-in {
+     width: 40%;
+ }

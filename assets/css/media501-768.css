@@ -1,0 +1,123 @@
+
+header {
+    padding: 3rem 4rem 0rem 4rem;
+}
+
+.main {
+    padding: 3rem;
+}
+
+.aside {
+    width: 15rem;
+}
+
+.nav-menu-left {
+    display: none;
+}
+
+.nav-menu-right {
+    column-gap: 0.5rem;
+}
+
+.fa {
+    display: var(--fa-display, block);
+}
+
+.bg-blur {
+    width: 90px;
+    height: 90px;
+}
+
+@keyframes anim-bg-blue {
+    0% {
+        left: 10rem;
+        top: 10rem;
+    }
+
+    25% {
+        left: 25rem;
+        top: 20rem;
+    }
+
+    50% {
+        left: 10rem;
+        top: 30rem;
+    }
+
+    75% {
+        left: 10rem;
+        top: 22rem;
+    }
+
+    100% {
+        left: 10rem;
+        top: 10rem;
+    }
+}
+
+@keyframes anim-bg-yellow {
+    0% {
+        left: 10rem;
+        top: 10rem;
+    }
+
+    25% {
+        left: 25rem;
+        top: 20rem;
+    }
+
+    50% {
+        left: 10rem;
+        top: 30rem;
+    }
+
+    75% {
+        left: 10rem;
+        top: 22rem;
+    }
+
+    100% {
+        left: 10rem;
+        top: 10rem;
+    }
+}
+
+
+.texte {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: baseline;
+    justify-content: space-around;
+}
+
+
+.texte>div {
+    width: 48%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.texte-big {
+    font-size: 2.6rem;
+}
+
+.texte-small {
+    font-size: 1.1rem;
+}
+
+.texte>div>img {
+    width: 300px;
+    margin-top: 3rem;
+    margin-left: 0;
+}
+
+#account-with>hr {
+    width: 50%;
+}
+
+#form-sign-in {
+    width: 40%;
+}
